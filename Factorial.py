@@ -5,4 +5,3 @@ def Factor(n, acc = 1):
         return Factor(n-1, acc * n)
 fac = int(input("Ingrese el numero: "))
 print(Factor(fac))
-
